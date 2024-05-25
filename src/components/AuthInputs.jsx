@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Input from './Input';
 import DivContainer from './Div';
+import Button from './Button';
 
 
 export default function AuthInputs() {
@@ -41,10 +42,10 @@ export default function AuthInputs() {
         
         </DivContainer>
       <div className="actions">
-        <button type="button" className="text-button">
-          Create a new account
-        </button>
-        <button className='button' onClick={handleLogin}>Sign In</button>
+        <Button> Create a new account</Button>
+        {/* <button type="button" className="text-button"></button>*/}
+        <Button>Sign In</Button>
+        {/* <button className='button' onClick={handleLogin}></button> */}
       </div>
     </div>
   );
