@@ -42,9 +42,9 @@ export default function AuthInputs() {
         
         </DivContainer>
       <div className="actions">
-        <Button> Create a new account</Button>
+        <Button type="button"> Create a new account</Button>
         {/* <button type="button" className="text-button"></button>*/}
-        <Button>Sign In</Button>
+        <Button onClick={handleLogin}>Sign In</Button>
         {/* <button className='button' onClick={handleLogin}></button> */}
       </div>
     </div>
